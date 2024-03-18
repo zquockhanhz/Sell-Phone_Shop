@@ -1,0 +1,18 @@
+INFO - 2023-12-19 09:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 09:45:53 --> Undefined array key "user_id"
+in APPPATH\Models\CartdeModel.php on line 24.
+ 1 APPPATH\Models\CartdeModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'D:\\xampp\\htdocs\\CI4\\app\\Models\\CartdeModel.php', 24)
+ 2 APPPATH\Controllers\Cart.php(39): App\Models\CartdeModel->getCartuser()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cart->showcart()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-19 09:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-19 09:46:01 --> Undefined array key "user_id"
+in APPPATH\Models\CartdeModel.php on line 24.
+ 1 APPPATH\Models\CartdeModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'D:\\xampp\\htdocs\\CI4\\app\\Models\\CartdeModel.php', 24)
+ 2 APPPATH\Controllers\Cart.php(39): App\Models\CartdeModel->getCartuser()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cart->showcart()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
